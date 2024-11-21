@@ -43,11 +43,12 @@ a, h1 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
-    justify-content: space-around;
+   
 
 
     @media (min-width: 768px) {
         grid-template-columns: repeat(3, 1fr);
+        justify-content: space-around;
     }
 
 
@@ -56,7 +57,7 @@ a, h1 {
 .card{
     border-radius: 50px;
     background-color: #F0EAD6 ;
-    width: 450px;
+    width: fit-content;
     height: 500px;
 }
 

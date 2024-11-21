@@ -29,16 +29,16 @@ a, h1 {
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
-  justify-content: space-around; }
+  gap: 1rem; }
   @media (min-width: 768px) {
     .grid {
-      grid-template-columns: repeat(3, 1fr); } }
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: space-around; } }
 
 .card {
   border-radius: 50px;
   background-color: #F0EAD6;
-  width: 450px;
+  width: fit-content;
   height: 500px; }
 
 .section, .section3 {

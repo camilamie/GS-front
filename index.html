@@ -67,7 +67,7 @@
 
 
 
-    <section id="tipos" class="container-fluid text-center section2">
+    <section id="tipos" class="container-fluid text-center section2 p-5">
         <div class="">
             <div class="col">
                 <h2 class="display-4 font-weight-bold pt-5">O que é Energia Limpa?</h2>
@@ -75,50 +75,75 @@
                 <p class="lead"> Em vez de liberar gases de efeito estufa ou poluentes nocivos, como ocorre com combustíveis fósseis (petróleo, carvão e gás natural), a energia limpa utiliza fontes renováveis e sustentáveis</p>
                 <p class="lead">Conheça as fontes de energia que ajudam a preservar o meio ambiente e a construir um futuro sustentável:</p>
             </div>
-            <div class="grid p-5  ">
-                <div class="card shadow-sm ">
-                    <img src="assets/energia-eolica.jpg" class="card-img-top" alt="Turbinas eólicas">
-                    <div class="card-body">
-                        <h3 class="card-title">Energia eólica</h3>
-                        <p class="card-text lead">Utiliza a força do vento para mover turbinas e gerar eletricidade.</p>
+            <div>
+                <div class="grid d-flex justify-content-around">
+                    <div class="card shadow-sm  ">
+                        <img src="assets/energia-eolica.jpg" class="card-img-top" alt="Turbinas eólicas">
+                        <div class="card-body">
+                            <h3 class="card-title">Energia eólica</h3>
+                            <p class="card-text lead">Utiliza a força do vento para mover turbinas e gerar eletricidade.</p>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm">
+                        <img src="assets/energia-solar.jpg" class="card-img-top" alt="Painel Solar">
+                        <div class="card-body">
+                            <h3 class="card-title">Energia solar</h3>
+                            <p  class="card-text lead">Usa a luz e o calor do sol para gerar eletricidade, por meio de painéis fotovoltaicos ou coletores solares.</p>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm">
+                        <img src="assets/energia-hidraulica.jpg" class="card-img-top" alt="Usina hidrelétrica">
+                        <div class="card-body">
+                            <h3 class="card-title">Energia hidráulica</h3>
+                            <p class="card-text lead">Aproveita o fluxo de água de rios e quedas d'água para movimentar turbinas em usinas hidrelétricas.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card shadow-sm">
-                    <img src="assets/energia-solar.jpg" class="card-img-top" alt="Painel Solar">
-                    <div class="card-body">
-                        <h3 class="card-title">Energia solar</h3>
-                        <p  class="card-text lead">Usa a luz e o calor do sol para gerar eletricidade, por meio de painéis fotovoltaicos ou coletores solares.</p>
-                    </div>
-                </div>
-                <div class="card shadow-sm">
-                    <img src="assets/energia-hidraulica.jpg" class="card-img-top" alt="Usina hidrelétrica">
-                    <div class="card-body">
-                        <h3 class="card-title">Energia hidráulica</h3>
-                        <p class="card-text lead">Aproveita o fluxo de água de rios e quedas d'água para movimentar turbinas em usinas hidrelétricas.</p>
-                    </div>
-                </div>
-                <div class="card shadow-sm">
+                <div class="grid d-flex justify-content-around pt-5">
+                    <div class="card shadow-sm">
                     
-                    <img src="assets/biomassa.jpg" class="card-img-top" alt="Biomassa">
-                    <div class="card-body">
-                        <h3 class="card-title">Biomassa</h3>
-                        <p class="card-text lead">Aproveita a matéria orgânica (como resíduos agrícolas e florestais) para gerar energia, podendo ser convertida em eletricidade, calor ou biocombustíveis.</p>
+                        <img src="assets/biomassa.jpg" class="card-img-top" alt="Biomassa">
+                        <div class="card-body">
+                            <h3 class="card-title">Biomassa</h3>
+                            <p class="card-text lead">Aproveita a matéria orgânica (como resíduos agrícolas e florestais) para gerar energia, podendo ser convertida em eletricidade, calor ou biocombustíveis.</p>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm">
+                        <img src="assets/mar.jpg" class="card-img-top" alt="Mar">
+                        <div class="card-body">
+                            <h3 class="card-title">Energia das Marés e Ondas</h3>
+                            <p class="card-text lead">Usa o movimento das ondas e das marés oceânicas para gerar eletricidade.</p>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm">
+                        <img src="assets/hidrogenio-verde.jpg" class="card-img-top" alt="Hidrogênio verde">
+                        <div class="card-body">
+                            <h3 class="card-title">Energia Hidrogênio Verde</h3>
+                            <p class="card-text lead">Gera eletricidade a partir de hidrogênio obtido com eletricidade renovável, especialmente útil como combustível em transportes e indústrias.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card shadow-sm">
-                    <img src="assets/mar.jpg" class="card-img-top" alt="Mar">
-                    <div class="card-body">
-                        <h3 class="card-title">Energia das Marés e Ondas</h3>
-                        <p class="card-text lead">Usa o movimento das ondas e das marés oceânicas para gerar eletricidade.</p>
-                    </div>
+                <button class="btn-tipos " data-toggle="modal" data-target="#modalInfo">Saiba Mais</button>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalInfo" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
-                <div class="card shadow-sm">
-                    <img src="assets/hidrogenio-verde.jpg" class="card-img-top" alt="Hidrogênio verde">
-                    <div class="card-body">
-                        <h3 class="card-title">Energia Hidrogênio Verde</h3>
-                        <p class="card-text lead">Gera eletricidade a partir de hidrogênio obtido com eletricidade renovável, especialmente útil como combustível em transportes e indústrias.</p>
-                    </div>
+                <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9 mb-3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MYvpH_1rAkw?si=7lgBSEtYIbndV3km" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" class="embed-responsive-item" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
                 </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
             </div>
         </div>
     </section>

@@ -29,14 +29,17 @@ a, h1 {
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem; }
+  gap: 1rem;
+  justify-content: space-around; }
   @media (min-width: 768px) {
     .grid {
       grid-template-columns: repeat(3, 1fr); } }
 
 .card {
   border-radius: 50px;
-  background-color: #F0EAD6; }
+  background-color: #F0EAD6;
+  width: 450px;
+  height: 500px; }
 
 .section, .section3 {
   display: flex;
@@ -56,6 +59,15 @@ a, h1 {
 .section3 {
   display: grid;
   color: #333333; }
+
+.btn-tipos {
+  border: 5px solid #2C5F2D;
+  border-radius: 20px;
+  background-color: #2C5F2D;
+  color: #F0EAD6;
+  height: 50px;
+  width: 200px;
+  margin-top: 50px; }
 
 .img-principal {
   margin-top: 4%;

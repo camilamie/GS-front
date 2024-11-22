@@ -58,7 +58,12 @@ a, h1 {
     border-radius: 50px;
     background-color: #F0EAD6 ;
     width: fit-content;
-    height: 520px;
+    
+    
+}
+
+.card-body {
+    padding-bottom: 10px;
 }
 
 .section {
@@ -83,7 +88,7 @@ a, h1 {
 .section3 {
     @extend.section;
     display: grid;
-    color: #333333;
+    color: #F0EAD6;
     
 }
 

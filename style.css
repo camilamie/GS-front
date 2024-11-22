@@ -38,8 +38,10 @@ a, h1 {
 .card {
   border-radius: 50px;
   background-color: #F0EAD6;
-  width: fit-content;
-  height: 520px; }
+  width: fit-content; }
+
+.card-body {
+  padding-bottom: 10px; }
 
 .section, .section3 {
   display: flex;
@@ -58,7 +60,7 @@ a, h1 {
 
 .section3 {
   display: grid;
-  color: #333333; }
+  color: #F0EAD6; }
 
 .btn-tipos {
   border: 5px solid #2C5F2D;
